@@ -4,7 +4,7 @@ resource "aws_instance" "AWS_ec2" {
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
 
   tags = {
-    Name = AWS_ec2_Terraform
+    Name = "AWS_ec2_Terraform"
   }
 }
 
